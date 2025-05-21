@@ -1,0 +1,513 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Docker\\Desktop\\WebApplication2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\testtable\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\testtable\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\testtable\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\testtable\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\testtable\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\testtable\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\models\\testtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\testtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\testtable\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\testtable\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\testtable\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\testtable\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\testtable\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\testtable\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\testtable\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\testtable\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\testtable\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\testtable\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\testtable\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\testtable\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\testtable\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\testtable\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\data\\webapplication2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\data\\webapplication2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\models\\values.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\models\\values.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\values\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\values\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\values\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\values\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\values\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\values\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\values\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\values\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\values\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\values\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\values\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\values\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\values\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\values\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\values\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\values\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\values\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\values\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\pages\\values\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\values\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|c:\\users\\docker\\desktop\\webapplication2\\webapplication2\\webapplication2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A1E6C249-A6C9-4CE0-B85D-93F9360AFCCB}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\webapplication2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\testTable\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Index.cshtml.cs",
+              "RelativeToolTip": "WebApplication2\\Pages\\testTable\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:42:05.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\testTable\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Index.cshtml",
+              "RelativeToolTip": "WebApplication2\\Pages\\testTable\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T17:42:05.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\testTable\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Delete.cshtml.cs",
+              "RelativeToolTip": "WebApplication2\\Pages\\testTable\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:42:05.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\testTable\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication2\\Pages\\testTable\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T17:42:05.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\testTable\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Details.cshtml.cs",
+              "RelativeToolTip": "WebApplication2\\Pages\\testTable\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:42:04.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Dockerfile",
+              "RelativeDocumentMoniker": "WebApplication2\\Dockerfile",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Dockerfile",
+              "RelativeToolTip": "WebApplication2\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-16T16:03:34.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Program.cs",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Program.cs",
+              "RelativeToolTip": "WebApplication2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T16:19:23.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "testTable.cs",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Models\\testTable.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\testTable.cs",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Models\\testTable.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\testTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:33:09.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication2\\appsettings.json",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\appsettings.json",
+              "RelativeToolTip": "WebApplication2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-16T16:33:22.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebApplication2\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\appsettings.Development.json",
+              "RelativeToolTip": "WebApplication2\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-16T16:22:08.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\Index.cshtml",
+              "RelativeToolTip": "WebApplication2\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T16:07:12.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\testTable\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Details.cshtml",
+              "RelativeToolTip": "WebApplication2\\Pages\\testTable\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T17:42:04.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\testTable\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Edit.cshtml.cs",
+              "RelativeToolTip": "WebApplication2\\Pages\\testTable\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:42:04.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\testTable\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication2\\Pages\\testTable\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T17:42:04.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\testTable\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Create.cshtml.cs",
+              "RelativeToolTip": "WebApplication2\\Pages\\testTable\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:42:04.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\testTable\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\testTable\\Create.cshtml",
+              "RelativeToolTip": "WebApplication2\\Pages\\testTable\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T17:42:03.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\values\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Index.cshtml.cs",
+              "RelativeToolTip": "WebApplication2\\Pages\\values\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T16:49:55.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\values\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Index.cshtml",
+              "RelativeToolTip": "WebApplication2\\Pages\\values\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T16:49:55.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\values\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Edit.cshtml",
+              "RelativeToolTip": "WebApplication2\\Pages\\values\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T16:49:54.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Values.cs",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Models\\Values.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Models\\Values.cs",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Models\\Values.cs",
+              "RelativeToolTip": "WebApplication2\\Models\\Values.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T16:45:59.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WebApplication2Context.cs",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Data\\WebApplication2Context.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Data\\WebApplication2Context.cs",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Data\\WebApplication2Context.cs",
+              "RelativeToolTip": "WebApplication2\\Data\\WebApplication2Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T16:49:53.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Delete.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\values\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Delete.cshtml",
+              "RelativeToolTip": "WebApplication2\\Pages\\values\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T16:49:55.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\values\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Delete.cshtml.cs",
+              "RelativeToolTip": "WebApplication2\\Pages\\values\\Delete.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T16:49:55.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\values\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Details.cshtml.cs",
+              "RelativeToolTip": "WebApplication2\\Pages\\values\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T16:49:55.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\values\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Details.cshtml",
+              "RelativeToolTip": "WebApplication2\\Pages\\values\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T16:49:54.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\values\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Edit.cshtml.cs",
+              "RelativeToolTip": "WebApplication2\\Pages\\values\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T16:49:54.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Create.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\values\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Create.cshtml",
+              "RelativeToolTip": "WebApplication2\\Pages\\values\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-16T16:49:54.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\values\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\Pages\\values\\Create.cshtml.cs",
+              "RelativeToolTip": "WebApplication2\\Pages\\values\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T16:49:54.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "WebApplication2",
+              "DocumentMoniker": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+              "RelativeDocumentMoniker": "WebApplication2\\WebApplication2.csproj",
+              "ToolTip": "C:\\Users\\Docker\\Desktop\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+              "RelativeToolTip": "WebApplication2\\WebApplication2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-16T16:45:39.792Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

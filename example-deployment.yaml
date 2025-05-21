@@ -1,0 +1,60 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: gmsa-demosql
+  name: gmsa-demosql
+  namespace: cattle-wins-system
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gmsa-demosql
+  template:
+    metadata:
+      labels:
+        app: gmsa-demosql
+    spec:
+      # This field is required to authenticate as a gMSA.
+      # This service account must be configured to allow 
+      # for access to GMSACredentialSpec CRs. For more information
+      # refer to https://github.com/rancher/rancher-plugin-gmsa
+      serviceAccountName: windows-gmsa-webserver
+      # This can be changed / removed if the MS SQL server is accessible using 
+      # a public IP address or hostname. This is required if the connection string
+      # points to a private IP address such as 10.x.x.x. 
+      dnsPolicy: "ClusterFirstWithHostNet"
+      containers:
+        - name: iis
+          # Note: This image is built for Windows server 2022 only.
+          image: harrisonwaffel/windows-testing:iis          
+          imagePullPolicy: Always
+          args:
+            # This argument defines the connection string used to connect to the SQL server.
+            # This should be changed based off of your testing environment. 
+            - "connectionString:value=Server=10.2.0.5;DataBase=sqlTest;Trusted_Connection=yes;TrustServerCertificate=True;"
+          securityContext:
+            windowsOptions:
+              # This field is required to authenticate as a 
+              # gMSA. In order for this field to work, the rancher-plugin-gmsa
+              # charts must be installed and configured in the cluster
+              # https://github.com/rancher/rancher-plugin-gmsa
+              gmsaCredentialSpecName: gmsa1-ccg
+          ports:
+            - containerPort: 8080            
+      nodeSelector:
+        kubernetes.io/os: windows
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: gmsa-demo
+spec:
+  type: NodePort
+  selector:
+    app: gmsa-demosql
+  ports:
+    - port: 8080
+      targetPort: 8080
