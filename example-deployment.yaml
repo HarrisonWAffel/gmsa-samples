@@ -22,7 +22,8 @@ spec:
       serviceAccountName: windows-gmsa-webserver
       # This can be changed / removed if the MS SQL server is accessible using 
       # a public IP address or hostname. This is required if the connection string
-      # points to a private IP address such as 10.x.x.x. 
+      # points to a private IP address such as 10.x.x.x. Note that due to the removal
+      # of host network support for Windows, this may not work on all kubernetes versions.
       dnsPolicy: "ClusterFirstWithHostNet"
       containers:
         - name: iis
@@ -32,7 +33,7 @@ spec:
           args:
             # This argument defines the connection string used to connect to the SQL server.
             # This should be changed based off of your testing environment. 
-            - "connectionString:value=Server=10.2.0.5;DataBase=sqlTest;Trusted_Connection=yes;TrustServerCertificate=True;"
+            - "connectionString:value=Server=10.2.0.5;DataBase=sqlTest;Trusted_Connection=yes;Integrated Security=True;TrustServerCertificate=True;"
           securityContext:
             windowsOptions:
               # This field is required to authenticate as a 

@@ -24,7 +24,7 @@ The purpose of this project is to demonstrate how a Windows container can connec
 
 1. An Active Directory environment and Domain
 2. A machine running Microsoft SQL Server which is joined to the Active Directory Domain.
-   1. The required Users and gMSA accounts must be configured in both Active Directory, as well as within MS SQL server (to allow for CRUD requests) 
+   1. The required Users and gMSA accounts must be configured in both Active Directory, and within MS SQL server (to allow for CRUD requests) 
 3. A Windows Kubernetes cluster, with Windows nodes that are NOT domain joined. 
    1. As the Windows node will not be domain joined, you will not be able to address the MS SQL server by name (as the node will have no way to contact the Active Directory DNS server). 
 4. A solution for integrating gMSA accounts into containerized workloads, such as [rancher-plugin-gmsa](https://github.com/rancher/rancher-plugin-gmsa)
@@ -33,4 +33,18 @@ The purpose of this project is to demonstrate how a Windows container can connec
 #### Example Workload
 
 Once the prerequisites have been satisfied, you can utilize the `example-deployment.yaml`. This manifest contains a sample Kubernetes deployment and Node Port service which can be used to access the application UI. The example manifest requires that the workload run on Windows 2022 nodes. 
+
+### Validating gMSA Functionality
+
+In addition to simply utilizing the UI exposed by this application to make requests to the database, you can further confirm that requests are being made by the expected gMSA by utilizing [Microsoft's SQL Server Management Studio](https://learn.microsoft.com/en-us/ssms/sql-server-management-studio-ssms). When installed and connected to the relevant SQL server, viewing the activity log will show the exact user making requests via the UI. 
+
+<details>
+<summary>
+A screenshot of a gMSA making a request
+</summary>
+
+![](images/gmsa-logs.png)
+
+
+</details>
 
