@@ -28,7 +28,7 @@ spec:
       containers:
         - name: iis
           # Note: This image is built for Windows server 2022 only.
-          image: harrisonwaffel/windows-testing:iis          
+          image: harrisonwaffel/windows-testing:iis-server
           imagePullPolicy: Always
           args:
             # This argument defines the connection string used to connect to the SQL server.
