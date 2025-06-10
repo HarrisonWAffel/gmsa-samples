@@ -1,45 +1,53 @@
-# escape=`
-# Learn about building .NET container images:
-# https://github.com/dotnet/dotnet-docker/blob/main/samples/README.md
-# Runtime stage
 FROM mcr.microsoft.com/windows/servercore/iis:windowsservercore-ltsc2022 AS final
 
-RUN powershell -Command `
-        $ErrorActionPreference = 'Stop'; `
-        $ProgressPreference = 'SilentlyContinue'; `
-        `
+RUN powershell -Command ` \
+        $ErrorActionPreference = 'Stop'; ` \
+        $ProgressPreference = 'SilentlyContinue'; ` \
+        ` \
         # Install IIS
-        Add-WindowsFeature Web-Server; `
-        Remove-Item -Recurse C:\inetpub\wwwroot\*; `
-        `
+        Add-WindowsFeature Web-Server; ` \
+        Remove-Item -Recurse C:\inetpub\wwwroot\*; ` \
+        ` \
         # Acquire ServiceMonitor
-        Invoke-WebRequest -OutFile C:\ServiceMonitor.exe -Uri https://dotnetbinaries.blob.core.windows.net/servicemonitor/2.0.1.10/ServiceMonitor.exe; `
-        `
+        Invoke-WebRequest -OutFile C:\ServiceMonitor.exe -Uri https://dotnetbinaries.blob.core.windows.net/servicemonitor/2.0.1.10/ServiceMonitor.exe; ` \
+        ` \
         # Install the ASP.NET Core Module
-        Invoke-WebRequest -OutFile c:\dotnet-hosting-win.exe https://aka.ms/dotnet/8.0/dotnet-hosting-win.exe; `
-        $process = Start-Process -Filepath C:\dotnet-hosting-win.exe -ArgumentList  @('/install', '/q', '/norestart', 'OPT_NO_RUNTIME=0', 'OPT_NO_X86=1', 'OPT_NO_SHAREDFX=1') -Wait -PassThru ; `
-        if ($process.ExitCode -ne 0) { `
-            exit $process.ExitCode; `
-        } `
-        Remove-Item -Force C:\dotnet-hosting-win.exe; `
+        Invoke-WebRequest -OutFile c:\dotnet-hosting-win.exe https://aka.ms/dotnet/8.0/dotnet-hosting-win.exe; ` \
+        $process = Start-Process -Filepath C:\dotnet-hosting-win.exe -ArgumentList  @('/install', '/q', '/norestart', 'OPT_NO_RUNTIME=0', 'OPT_NO_X86=1', 'OPT_NO_SHAREDFX=1') -Wait -PassThru ; ` \
+        if ($process.ExitCode -ne 0) { ` \
+            exit $process.ExitCode; ` \
+        } ` \
+        Remove-Item -Force C:\dotnet-hosting-win.exe; ` \
         Remove-Item -Force -Recurse $Env:Temp\*
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0-windowsservercore-ltsc2022 AS build
 WORKDIR /source
 
-# Copy project file and restore as distinct layers
 COPY --link SamplegMSAApp/*.csproj .
 RUN dotnet restore
 
-# Copy source code and publish app
 COPY --link SamplegMSAApp/. .
+COPY --link connAdd.ps1 .
 
 RUN dotnet publish -o /app --self-contained
 
+RUN powershell -command Add-WindowsFeature Web-Server; \
+    powershell -command Add-WindowsFeature Web-Asp-Net45
 
 FROM final
 WORKDIR /inetpub/wwwroot
+
+ENV CONNECTION_NAME="sqltest"
+# 'Integrated Security=True' ensures we make all SQL requests as the embedded gMSA user
+ENV CONNECTION_VALUE="Server=10.2.0.5;DataBase=sqlTest;Integrated Security=True;TrustServerCertificate=True;"
+
 COPY --link --from=build /app .
+# Import a utility script to update the web.config with the correct connection string
+COPY --link --from=build /source/connAdd.ps1 .
+
+SHELL ["powershell", "-NoLogo", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
+
+RUN ./connAdd.ps1 -webConfigPath "C:\inetpub\wwwroot\web.config" -connName $env:CONNECTION_NAME -connValue $env:CONNECTION_VALUE
 
 EXPOSE 80
 ENTRYPOINT ["C:\\ServiceMonitor.exe", "w3svc"]

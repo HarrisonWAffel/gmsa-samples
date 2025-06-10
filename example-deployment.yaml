@@ -1,3 +1,9 @@
+# This deployment manifest serves as an example of what a gMSA enabled workload would look like when deployed
+# onto a Windows cluster with the Rancher Plugin gMSA solution configured. In all likely-hood, this workload cannot
+# be deployed as-is without properly configuring the cluster with the required namespaces, service accounts, GMSACredentialSpecs
+# and associated gMSA charts. The intent of this manifest is to show how automatically enabling gMSA within workloads requires only
+# minimal changes to existing deployment manifests.
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -16,8 +22,8 @@ spec:
         app: gmsa-demosql
     spec:
       # This field is required to authenticate as a gMSA.
-      # This service account must be configured to allow 
-      # for access to GMSACredentialSpec CRs. For more information
+      # This service account must be configured to allow the `use`
+      # verb on GMSACredentialSpec CRs. For more information
       # refer to https://github.com/rancher/rancher-plugin-gmsa
       serviceAccountName: windows-gmsa-webserver
       # This can be changed / removed if the MS SQL server is accessible using 
@@ -28,12 +34,13 @@ spec:
       containers:
         - name: iis
           # Note: This image is built for Windows server 2022 only.
-          image: harrisonwaffel/windows-testing:iis-server
+          image: harrisonwaffel/windows-testing:iis-config
           imagePullPolicy: Always
-          args:
+          env:
             # This argument defines the connection string used to connect to the SQL server.
             # This should be changed based off of your testing environment. 
-            - "connectionString:value=Server=10.2.0.5;DataBase=sqlTest;Trusted_Connection=yes;Integrated Security=True;TrustServerCertificate=True;"
+            - name: CONNECTION_STRING
+              value: 10.2.0.5;DataBase=sqlTest;Integrated Security=True;TrustServerCertificate=True;"
           securityContext:
             windowsOptions:
               # This field is required to authenticate as a 
@@ -42,7 +49,7 @@ spec:
               # https://github.com/rancher/rancher-plugin-gmsa
               gmsaCredentialSpecName: gmsa1-ccg
           ports:
-            - containerPort: 8080            
+            - containerPort: 80
       nodeSelector:
         kubernetes.io/os: windows
 
@@ -57,5 +64,5 @@ spec:
   selector:
     app: gmsa-demosql
   ports:
-    - port: 8080
-      targetPort: 8080
+    - port: 80
+      targetPort: 80

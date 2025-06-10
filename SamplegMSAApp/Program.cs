@@ -11,15 +11,16 @@ var config = new ConfigurationBuilder()
     .AddCommandLine(args)
     .Build();
 
-var connString = config.GetValue<string>("connectionString:value");
 
-if (connString == "")
+var connString = builder.Configuration.GetConnectionString("sqltest") ?? throw new InvalidOperationException("default connection string 'sqltest' not found.");
+
+if (Environment.GetEnvironmentVariable("CONNECTION_STRING") == null)
 {
     Console.WriteLine("The connection string environment variable was not detected. Attempting to use hard coded connection string from appsettings");
-    connString = builder.Configuration.GetConnectionString("sqltest") ?? throw new InvalidOperationException("default connection string 'sqltest' not found.");
 } else
 {
     Console.WriteLine("The connection string environment variable was detected");
+    connString = Environment.GetEnvironmentVariable("CONNECTION_STRING");
     Console.WriteLine(connString);
 }
 
