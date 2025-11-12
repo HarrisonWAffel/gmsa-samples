@@ -39,7 +39,7 @@ spec:
             # This argument defines the connection string used to connect to the SQL server.
             # This should be changed based off of your testing environment. 
             - name: CONNECTION_STRING
-              value: 10.2.0.5;DataBase=sqlTest;Integrated Security=True;TrustServerCertificate=True;"
+              value: Server=10.2.0.5;DataBase=sqlTest;Integrated Security=True;TrustServerCertificate=True;"
           securityContext:
             windowsOptions:
               # This field is required to authenticate as a 

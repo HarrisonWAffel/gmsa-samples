@@ -1,28 +1,18 @@
-using Microsoft.AspNetCore.Authentication.Negotiate;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using System.Configuration;
 using WebApplication2.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var config = new ConfigurationBuilder()
-    .AddCommandLine(args)
-    .Build();
-
-
-var connString = builder.Configuration.GetConnectionString("sqltest") ?? throw new InvalidOperationException("default connection string 'sqltest' not found.");
-
-if (Environment.GetEnvironmentVariable("CONNECTION_STRING") == null)
+var connectionStringFromEnv = Environment.GetEnvironmentVariable("CONNECTION_STRING");
+if (!string.IsNullOrEmpty(connectionStringFromEnv))
 {
-    Console.WriteLine("The connection string environment variable was not detected. Attempting to use hard coded connection string from appsettings");
-} else
-{
-    Console.WriteLine("The connection string environment variable was detected");
-    connString = Environment.GetEnvironmentVariable("CONNECTION_STRING");
-    Console.WriteLine(connString);
+    builder.Configuration["ConnectionStrings:sqltest"] = connectionStringFromEnv;
+    Console.WriteLine("Using connection string from CONNECTION_STRING environment variable.");
 }
+
+// GetConnectionString will now resolve the value from the environment variable if it was set,
+// otherwise it will fall back to appsettings.json.
+var connString = builder.Configuration.GetConnectionString("sqltest") ?? throw new InvalidOperationException("Connection string 'sqltest' not found.");
 
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<WebApplication2Context>(options =>

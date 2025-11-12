@@ -41,7 +41,3 @@ if ($provider) { # Only set if provider name is provided
 
 $wc.Save($webConfigPath)
 Write-Host "Successfully updated connection string '$connName' in '$webConfigPath'."
-
-Write-Host "Starting Server..."
-
-C:\ServiceMonitor.exe w3svc
