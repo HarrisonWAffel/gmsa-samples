@@ -26,10 +26,9 @@ spec:
       # verb on GMSACredentialSpec CRs. For more information
       # refer to https://github.com/rancher/rancher-plugin-gmsa
       serviceAccountName: windows-gmsa-webserver
-      # This can be changed / removed if the MS SQL server is accessible using 
-      # a public IP address or hostname. This is required if the connection string
-      # points to a private IP address such as 10.x.x.x. Note that due to the removal
-      # of host network support for Windows, this may not work on all kubernetes versions.
+      # The value of this field depends on your networking configuration. If the SQL server
+      # can be accessed by a public IP address or DNS record from within the cluster,
+      # this field may not be needed.
       dnsPolicy: "ClusterFirstWithHostNet"
       containers:
         - name: iis
